@@ -3,21 +3,25 @@
 <head>
   <meta charset='UFC-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="PLPstyles.css"> 
+  <link rel="stylesheet" href="styles.css"> 
 <title>Be Calm</title>
 </head>
 <body>
+  <div id="wrapper">
   <header id="header">
     <img id="header-img" src="https://cdn.pixabay.com/photo/2022/03/28/22/48/cloudy-7098479_1280.png">
     <nav id="nav-bar">
       <a class="nav-link" href="#Box_Breathing">Box Breathing</a><br>
-      <a class="nav-link" href="#Cloud_info_1">Cloud info 2</a><br>
+      <a class="nav-link" href="#Cloud_info_1">Cloud info 1</a><br>
       <a class="nav-link"  href="#More_Info">More Info</a>
     </nav><br>
   </header>
+</div>
 
-<div id="Cloud_info_1">
-<video id="video" src="https://www.youtube.com/watch?v=a7uQXDkxEtM"
+
+<section id="Box_Breathing">
+
+<video id="video" src="https://www.youtube.com/watch?v=a7uQXDkxEtM">
 
 <h2>How to do box breathing</h2>
 <ol>
@@ -27,10 +31,21 @@
 <li>Exhale for another count of four.</li>
 <li>Hold your breath again for a count of four.</li>
 <li>Repeat for three to four rounds.</li>
-</div>
-<div id="Cloud_info_2"></div>
+</section>
+<section id="Cloud_info_1">
+  <p>Blah Blah Blah</p>
+</section>
 
-<div id="Cloud_info_3"></div>
+
+<section id="More_Info">
+    <h2>More Information</h2>
+    <p>For more information, complete the below form, and an email will be sent to you with a free pdf guide to calm and sleep.</p>
+    <br>
+    <form id='form' action='https://www.freecodecamp.com/email-submit'>
+    <input name='email' id='email' placeholder='Enter your email address' required type='email'>
+    <a href="https://www.freecodecamp.com/email-submit"><input type="submit" id="submit" value="submit" name="submit"></a>
+  </form>
+</section>
 
 </body>
   </html>
