@@ -3,6 +3,7 @@ body {
   background-color: #F7F7F7;
 }
 
-.img {
-  width: 60vw;
+#header-img {
+  width: 30vw;
+  align: left;
 }
