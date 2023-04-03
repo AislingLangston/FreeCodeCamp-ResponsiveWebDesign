@@ -1,9 +1,44 @@
-body {
-  font-family: Tahoma;
-  background-color: #F7F7F7;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    font-family: Tahoma; 
 }
 
 #header-img {
   width: 30vw;
   align: left;
 }
+
+li { list-style-position: initial;   list-style-image: initial;  list-style-type: none;
+}
+
+header {
+  position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+position: fixed;
+top: 0;
+min-height: 15px;
+padding: 0px 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav {
+  display: block
+}
+
+@media (max-width: 500px) {
+  #header {
+    flex-direction: column;
+  }
